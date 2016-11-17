@@ -1,0 +1,42 @@
+body {
+  padding-top: 20px;
+  background-color: gray;
+}
+
+.centrar {
+  text-align: center;
+  justify-content: center;
+
+}
+
+.alinear{
+	display: flex;
+	align-items: center;
+	
+}
+.navbar-wrapper .navbar {
+	border-radius: 4px;
+}
+
+.logo{
+	padding-left: 25px;
+	font-family: 'Pacifico', cursive;
+	color: #FC4D28;
+	font-size: 32px;
+	padding-top: 20px;
+	list-style: none;
+}
+
+.logo::before {
+
+	content: "Melissa";
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+img{
+	height: 100px;
+}
