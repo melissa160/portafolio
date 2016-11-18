@@ -1,7 +1,16 @@
 body {
   padding-top: 20px;
-  background-color: gray;
+  background-color: #372D3B;
+  font-family: 'Roboto Slab', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+  color: #FFFFDE;
+
 }
+
+
+
 
 .centrar {
   text-align: center;
@@ -16,12 +25,14 @@ body {
 }
 .navbar-wrapper .navbar {
 	border-radius: 4px;
+	/*background-color: #372D3B;*/
+	border: 2px solid #CE415F;
 }
 
 .logo{
 	padding-left: 25px;
 	font-family: 'Pacifico', cursive;
-	color: #FC4D28;
+	color: #D94362;
 	font-size: 32px;
 	padding-top: 20px;
 	list-style: none;
@@ -32,11 +43,39 @@ body {
 	content: "Melissa";
 }
 
-.container{
+.container2{
 	display: flex;
 	justify-content: center;
 }
 
 img{
 	height: 100px;
+}
+.bloque{
+  padding-top: 30px;
+  padding-bottom: 50px: 
+}
+
+h1{
+  font-size: 20px;
+}
+
+.estudios {
+  display: inline-block;
+}
+
+ a {
+  color: inherit;
+
+}
+ a:hover{
+  background-color: transparent;
+  background: transparent;
+  color :#D94362;
+}
+
+.borde{
+  border: 1px solid white;
+  display: -webkit-inline-box;
+  border-radius: 9px;
 }

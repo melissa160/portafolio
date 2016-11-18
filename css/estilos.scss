@@ -1,0 +1,132 @@
+$back-color: #372D3B;
+$main-font-color: #FFFFDE;
+$main-font-family: 'Roboto Slab', serif;
+$rose-color: #CE415F;
+$logo-color: #D94362;
+
+body {
+  padding-top: 20px;
+  background-color: $back-color;
+  font-family: $main-font-family;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+  color: $main-font-color ;
+
+}
+
+.style-nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: $back-color;
+  border: 2px solid $rose-color;
+  border-radius: 9px;
+  align-items: center;
+  
+
+}
+
+.flex-center{
+  display: flex;
+  // flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  // align-items: center;
+}
+
+.navbar-nav{
+  padding: 0;
+  li{
+    padding: 0 23px;
+    list-style: none;
+    &:focus{
+      background-color: transparent;
+    }
+    a{
+      color: $main-font-color ;
+      padding: 0px;
+      &:hover{
+        background-color: transparent;
+        color: $rose-color;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  margin-right:8px;
+  padding: 0 2px 4px 0px;
+
+}
+
+.bloque{
+  padding-right: 35px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  padding-top: 80px;
+
+
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  padding-top:15px;
+}
+
+.borde{
+  border-radius:5px;
+  border: 2px solid $rose-color;
+  display: inline-block;
+  a{
+    color: $main-font-color;
+    &:hover{
+      color: $logo-color;
+    }
+  }
+
+}
+
+@media (min-width: 768px){
+  .con {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-inner{
+  margin-left: 30px;
+  }
+
+  .carousel {
+    margin-left: 30px;
+  }
+
+  .slide{
+    margin-left: 30px;
+  }
+
+  .carousel-control{
+    margin-left: 30px;
+    margin-right: -30px;
+  }
+
+  .carousel-indicators {
+    bottom: -8px;
+  }
+
+  .bloque{
+    width: 700px;
+    // text-align: justify;
+  }
+}
